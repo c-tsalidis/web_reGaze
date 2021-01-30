@@ -1,0 +1,124 @@
+body {
+    background-color: #131313;
+}
+
+/* regaze_regular */
+.main-container {
+    position: relative;
+    width: 1440px;
+    height: 6056px;
+    background: #131313;
+}
+
+/* topbar */
+.topbar {
+    position: absolute;
+    width: 1172px;
+    height: 36px;
+    left: 134px;
+    top: 30px;
+} 
+
+.menu {
+    position: absolute;
+    width: 270px;
+    height: 24px;
+    left: 1036px;
+    top: 35px;
+}
+
+/* bg */
+.bg {    
+    position: absolute;
+    width: 1442px;
+    height: 835px;
+    left: -2px;
+    top: 0px;
+}
+
+/* Backdrop */
+.back-drop {
+    background: linear-gradient(180deg, rgba(19, 19, 19, 0.6) 33.85%, #131313 100%), linear-gradient(0deg, rgba(19, 19, 19, 0.8), rgba(19, 19, 19, 0.8)), url(Images/Backdrop.png);
+}
+
+/* reGaze: Eye Tracking Assisted Superhuman Interactions in Virtual Reality Games */
+.heading {
+    position: absolute;
+    width: 572px;
+    height: 306px;
+    left: 134px;
+
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: normal;
+    /*font-weight: 400;*/
+    letter-spacing: -0.05em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.title {
+    top: 405px;
+    line-height: 107px;
+    font-size: 72px;
+}
+.subtitle {
+    top: 560px;
+    line-height: 53px;
+    font-size: 36px;
+}
+
+/* Watch the video */
+.video-link {
+    position: absolute;
+    width: 156px;
+    height: 24px;
+    left: 134px;
+    top: 758px;
+
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    letter-spacing: 0.5px;
+}
+
+.heading-images {
+    position: absolute;
+    width: 584px;
+    height: 836.77px;
+    left: 856px;
+    top: 66px;
+    opacity: 0.8;
+}
+
+.jupiter {
+    position: absolute;
+    width: 533.12px;
+    height: 755.69px;
+    left: 906.88px;
+    top: 147.07px;
+    background: url(Images/Jupiter.png);
+}
+
+.europa {
+    position: absolute;
+    width: 528.09px;
+    height: 748.94px;
+    left: 856px;
+    top: 66px;
+    background: url(Images/Europa.png);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.hyper-links {
+    color: #FF8F00;
+    text-decoration-line: underline;
+}
+
+
+
+
