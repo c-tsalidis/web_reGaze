@@ -1,5 +1,5 @@
 body {
-    background-color: #131313;
+    background-color: #000000;
 }
 
 /* regaze_regular */
@@ -7,7 +7,7 @@ body {
     position: relative;
     width: 1440px;
     height: 6056px;
-    background: #131313;
+    /*background: #131313;*/
 }
 
 /* topbar */
@@ -32,8 +32,9 @@ body {
     position: absolute;
     width: 1442px;
     height: 835px;
-    left: -2px;
-    top: 0px;
+    left: -6px;
+    top: -7px;
+    background: url("Images/Backdrop.png");
 }
 
 /* Backdrop */
