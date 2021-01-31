@@ -17,6 +17,7 @@ body {
 
 /* topbar */
 .topbar {
+    z-index: 100;
     position: fixed;
     width: 1172px;
     height: 36px;
@@ -232,7 +233,7 @@ body {
     width: 772px;
     height: 168px;
     left: 431px;
-    top: 2227px;
+    top: 2153px;
 
     font-family: Poppins;
     font-style: normal;
@@ -249,7 +250,7 @@ body {
     width: 781px;
     height: 144px;
     left: 233px;
-    top: 3313px;
+    top: 3093px;
 
     font-family: Poppins;
     font-style: normal;
