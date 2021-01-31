@@ -48,14 +48,14 @@ body {
     width: 89px;
     height: 36px;
     */
-    
+
     top: 30px;
     font-family: Space Mono;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 36px;
-    
+
 }
 
 
@@ -82,6 +82,7 @@ body {
     left: 0%;
     right: 69.63%;
 }
+
 .get-in-touch {
     left: 54.07%;
     right: 0%;
@@ -92,7 +93,6 @@ body {
     position: absolute;
     width: 1442px;
     height: 835px;
-    left: -6px;
     top: -7px;
     background: url("Images/Backdrop.png");
 }
@@ -123,6 +123,7 @@ body {
     line-height: 107px;
     font-size: 72px;
 }
+
 .subtitle {
     top: 560px;
     line-height: 53px;
@@ -245,87 +246,88 @@ body {
 
 .text3 {
     position: absolute;
-width: 781px;
-height: 144px;
-left: 233px;
-top: 3313px;
+    width: 781px;
+    height: 144px;
+    left: 233px;
+    top: 3313px;
 
-font-family: Poppins;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 24px;
-letter-spacing: 0.5px;
-
-color: #FFFFFF;
-}
-
-.text4 {
-    position: absolute;
-width: 772px;
-height: 96px;
-left: 333px;
-top: 3948px;
-
-font-family: Poppins;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 24px;
-letter-spacing: 0.5px;
-
-color: #FFFFFF;
-}
-
-.technologies-heading {
-    position: absolute;
-width: 773px;
-height: 53px;
-left: 134px;
-top: 4172px;
-
-font-family: Space Mono;
-font-style: normal;
-font-weight: normal;
-font-size: 36px;
-line-height: 53px;
-letter-spacing: -0.05em;
-
-color: #FFFFFF;
-}
-
-.htc-pro-heading {
-    position: absolute;
-width: 217px;
-height: 36px;
-left: 134px;
-top: 4289px;
-
-font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-font-size: 24px;
-line-height: 36px;
-/* identical to box height */
-
-letter-spacing: 0.01em;
-
-color: #FFFFFF;
-}
-.htc-pro-subheading {
-    position: absolute;
-    width: 272px;
-    height: 216px;
-    left: 134px;
-    top: 4349px;
-    
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.5px;
-    
+
+    color: #FFFFFF;
+}
+
+.text4 {
+    position: absolute;
+    width: 772px;
+    height: 96px;
+    left: 333px;
+    top: 3948px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+
+    color: #FFFFFF;
+}
+
+.technologies-heading {
+    position: absolute;
+    width: 773px;
+    height: 53px;
+    left: 134px;
+    top: 4172px;
+
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 53px;
+    letter-spacing: -0.05em;
+
+    color: #FFFFFF;
+}
+
+.htc-pro-heading {
+    position: absolute;
+    width: 217px;
+    height: 36px;
+    left: 134px;
+    top: 4289px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+    letter-spacing: 0.01em;
+
+    color: #FFFFFF;
+}
+
+.htc-pro-subheading {
+    position: absolute;
+    width: 272px;
+    height: 216px;
+    left: 134px;
+    top: 4349px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+
     color: #FFFFFF;
 }
 
@@ -335,32 +337,33 @@ color: #FFFFFF;
     height: 36px;
     left: 534px;
     top: 4289px;
-    
+
     font-family: Poppins;
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
     line-height: 36px;
     /* identical to box height */
-    
+
     letter-spacing: 0.01em;
-    
+
     color: #FFFFFF;
 }
+
 .tobii-xr-subheading {
     position: absolute;
     width: 272px;
     height: 144px;
     left: 534px;
     top: 4349px;
-    
+
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.5px;
-    
+
     color: #FFFFFF;
 }
 
@@ -370,138 +373,139 @@ color: #FFFFFF;
     height: 36px;
     left: 934px;
     top: 4289px;
-    
+
     font-family: Poppins;
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
     line-height: 36px;
     /* identical to box height */
-    
+
     letter-spacing: 0.01em;
-    
+
     color: #FFFFFF;
 }
+
 .unity-3d-subheading {
     position: absolute;
     width: 272px;
     height: 120px;
     left: 934px;
     top: 4349px;
-    
+
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.5px;
-    
+
     color: #FFFFFF;
-    
+
 }
 
 .our-repository {
     position: absolute;
-width: 1072px;
-height: 72px;
-left: 134px;
-top: 4677px;
+    width: 1072px;
+    height: 72px;
+    left: 134px;
+    top: 4677px;
 
-font-family: Poppins;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 36px;
-letter-spacing: 0.01em;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.01em;
 
-color: #FFFFFF;
+    color: #FFFFFF;
 
 }
 
 .about-us-heading {
     position: absolute;
-width: 773px;
-height: 53px;
-left: 134px;
-top: 4873px;
+    width: 773px;
+    height: 53px;
+    left: 134px;
+    top: 4873px;
 
-font-family: Space Mono;
-font-style: normal;
-font-weight: normal;
-font-size: 36px;
-line-height: 53px;
-letter-spacing: -0.05em;
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 53px;
+    letter-spacing: -0.05em;
 
-color: #FFFFFF;
+    color: #FFFFFF;
 }
 
 .about-us-subheading {
     position: absolute;
-width: 466px;
-height: 240px;
-left: 140px;
-top: 4990px;
+    width: 466px;
+    height: 240px;
+    left: 140px;
+    top: 4990px;
 
-font-family: Poppins;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 24px;
-letter-spacing: 0.5px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
 
-color: #FFFFFF;
+    color: #FFFFFF;
 }
 
 .project-authors {
     position: absolute;
-width: 466px;
-height: 192px;
-left: 834px;
-top: 5480px;
+    width: 466px;
+    height: 192px;
+    left: 834px;
+    top: 5480px;
 
-font-family: Poppins;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 24px;
-letter-spacing: 0.5px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
 
-color: #FFFFFF;
+    color: #FFFFFF;
 }
 
 .end-message {
     position: absolute;
-width: 772px;
-height: 48px;
-left: 134px;
-top: 5844px;
+    width: 772px;
+    height: 48px;
+    left: 134px;
+    top: 5844px;
 
-font-family: Poppins;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 24px;
-letter-spacing: 0.5px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
 
-color: #FFFFFF;
+    color: #FFFFFF;
 }
 
 .email {
     position: absolute;
-width: 872px;
-height: 71px;
-left: 134px;
-top: 5902px;
+    width: 872px;
+    height: 71px;
+    left: 134px;
+    top: 5902px;
 
-font-family: Space Mono;
-font-style: normal;
-font-weight: normal;
-font-size: 48px;
-line-height: 71px;
-/* identical to box height */
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 71px;
+    /* identical to box height */
 
 
-color: #FFFFFF;
+    color: #FFFFFF;
 }
 
 
@@ -518,35 +522,35 @@ color: #FFFFFF;
 
 .gif2 {
     position: absolute;
-width: 672px;
-height: 379px;
-left: 634px;
-top: 2443px;
+    width: 672px;
+    height: 379px;
+    left: 634px;
+    top: 2443px;
 
-background: url(Images/tele1.png);
+    background: url(Images/tele1.png);
 }
 
 .testing1 {
     position: absolute;
-width: 673px;
-height: 379px;
-left: 350px;
-top: 2886px;
+    width: 673px;
+    height: 379px;
+    left: 350px;
+    top: 2886px;
 
-background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%), url(Images/test1.png);
-transform: matrix(-1, 0, 0, 1, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%), url(Images/test1.png);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
-.testing2{
+.testing2 {
     position: absolute;
-width: 683px;
-height: 379px;
-left: 523px;
-top: 3505px;
+    width: 683px;
+    height: 379px;
+    left: 523px;
+    top: 3505px;
 
-background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%), url(Images/test2.png);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%), url(Images/test2.png);
 
-} 
+}
 
 .members1 {
     position: absolute;
@@ -562,10 +566,10 @@ background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%
 
 .members2 {
     position: absolute;
-width: 672px;
-height: 379px;
-left: 134px;
-top: 5293px;
+    width: 672px;
+    height: 379px;
+    left: 134px;
+    top: 5293px;
 
-background: url(Images/team2.png);
+    background: url(Images/team2.png);
 }
