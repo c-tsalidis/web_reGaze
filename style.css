@@ -521,7 +521,7 @@ background: url(Images/tele1.png);
     position: absolute;
 width: 673px;
 height: 379px;
-left: 1006px;
+left: 350px;
 top: 2886px;
 
 background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%), url(Images/test1.png);
@@ -541,13 +541,14 @@ background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%
 
 .members1 {
     position: absolute;
-width: 672px;
-height: 379px;
-left: 1306px;
-top: 4990px;
+    width: 672px;
+    height: 379px;
+    left: 700px;
+    top: 4990px;
 
-background: url(Images/team1.png);
-transform: matrix(-1, 0, 0, 1, 0, 0);
+    background: url(Images/team1.png);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    z-index: 1;
 }
 
 .members2 {
