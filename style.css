@@ -2,16 +2,17 @@ body {
     background-color: #000000;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+}
+
 /* regaze_regular */
 .main-container {
-    
+    position: relative;
     width: 1440px;
     height: 6056px;
-    background: #131313;
-
-    display: flex;
-  justify-content: center;
-
+    background-color: #131313;
 }
 
 /* topbar */
@@ -21,11 +22,12 @@ body {
     height: 36px;
     top: 30px;
     left: 134px;
+    display: flex;
+    justify-content: right;
 }
 
 .topbar a {
     color: #FFFFFF;
-    float: left;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -35,6 +37,10 @@ body {
     font-weight: normal;
     font-size: 24px;
     line-height: 36px;
+}
+
+.topbar-child {
+    float: right;
 }
 
 .logo {
@@ -83,7 +89,7 @@ body {
 }
 
 /* bg */
-.bg {    
+.bg {
     position: absolute;
     width: 1442px;
     height: 835px;
