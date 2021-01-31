@@ -442,3 +442,55 @@ letter-spacing: 0.5px;
 
 color: #FFFFFF;
 }
+
+.project-authors {
+    position: absolute;
+width: 466px;
+height: 192px;
+left: 834px;
+top: 5480px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.5px;
+
+color: #FFFFFF;
+}
+
+.end-message {
+    position: absolute;
+width: 772px;
+height: 48px;
+left: 134px;
+top: 5844px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.5px;
+
+color: #FFFFFF;
+}
+
+.email {
+    position: absolute;
+width: 872px;
+height: 71px;
+left: 134px;
+top: 5902px;
+
+font-family: Space Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 71px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
