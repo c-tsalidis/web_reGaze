@@ -7,24 +7,75 @@ body {
     position: relative;
     width: 1440px;
     height: 6056px;
-    /*background: #131313;*/
+    background: #131313;
 }
 
 /* topbar */
 .topbar {
-    position: absolute;
+    position: fixed;
     width: 1172px;
     height: 36px;
-    left: 134px;
     top: 30px;
-} 
+    left: 134px;
+}
+
+.topbar a {
+    color: #FFFFFF;
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.logo {
+    float: left;
+    /*
+    width: 89px;
+    height: 36px;
+    */
+    
+    top: 30px;
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    
+}
+
 
 .menu {
     position: absolute;
+    float: right;
     width: 270px;
     height: 24px;
     left: 1036px;
     top: 35px;
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    top: 0%;
+    bottom: 0%;
+    letter-spacing: 0.5px;
+    text-decoration-line: none;
+    color: #FFFFFF;
+}
+
+.about-us {
+    left: 0%;
+    right: 69.63%;
+}
+.get-in-touch {
+    left: 54.07%;
+    right: 0%;
 }
 
 /* bg */
@@ -115,11 +166,279 @@ body {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
+.playthrough {
+    /* bigbig 1 */
+
+    position: absolute;
+    width: 1440px;
+    height: 650px;
+    left: 0px;
+    top: 835px;
+
+    background: url(Images/bigbig\ 1.png);
+
+}
+
 .hyper-links {
     color: #FF8F00;
     text-decoration-line: underline;
 }
 
 
+.text {
+    position: absolute;
+    width: 773px;
+    height: 159px;
+    left: 134px;
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 53px;
+    letter-spacing: -0.05em;
 
+    color: #FFFFFF;
+}
 
+.text1 {
+    position: absolute;
+    width: 773px;
+    height: 159px;
+    left: 134px;
+    top: 1577px;
+
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 53px;
+    letter-spacing: -0.05em;
+
+    color: #FFFFFF;
+}
+
+.text2 {
+    position: absolute;
+    width: 772px;
+    height: 168px;
+    left: 431px;
+    top: 2227px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+
+    color: #FFFFFF;
+}
+
+.text3 {
+    position: absolute;
+width: 781px;
+height: 144px;
+left: 233px;
+top: 3313px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.5px;
+
+color: #FFFFFF;
+}
+
+.text4 {
+    position: absolute;
+width: 772px;
+height: 96px;
+left: 333px;
+top: 3948px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.5px;
+
+color: #FFFFFF;
+}
+
+.technologies-heading {
+    position: absolute;
+width: 773px;
+height: 53px;
+left: 134px;
+top: 4172px;
+
+font-family: Space Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 53px;
+letter-spacing: -0.05em;
+
+color: #FFFFFF;
+}
+
+.htc-pro-heading {
+    position: absolute;
+width: 217px;
+height: 36px;
+left: 134px;
+top: 4289px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+
+letter-spacing: 0.01em;
+
+color: #FFFFFF;
+}
+.htc-pro-subheading {
+    position: absolute;
+    width: 272px;
+    height: 216px;
+    left: 134px;
+    top: 4349px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    
+    color: #FFFFFF;
+}
+
+.tobii-xr-heading {
+    position: absolute;
+    width: 172px;
+    height: 36px;
+    left: 534px;
+    top: 4289px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+    
+    letter-spacing: 0.01em;
+    
+    color: #FFFFFF;
+}
+.tobii-xr-subheading {
+    position: absolute;
+    width: 272px;
+    height: 144px;
+    left: 534px;
+    top: 4349px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    
+    color: #FFFFFF;
+}
+
+.unity-3d-heading {
+    position: absolute;
+    width: 217px;
+    height: 36px;
+    left: 934px;
+    top: 4289px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+    
+    letter-spacing: 0.01em;
+    
+    color: #FFFFFF;
+}
+.unity-3d-subheading {
+    position: absolute;
+    width: 272px;
+    height: 120px;
+    left: 934px;
+    top: 4349px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    
+    color: #FFFFFF;
+    
+}
+
+.our-repository {
+    position: absolute;
+width: 1072px;
+height: 72px;
+left: 134px;
+top: 4677px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 36px;
+letter-spacing: 0.01em;
+
+color: #FFFFFF;
+
+}
+
+.about-us-heading {
+    position: absolute;
+width: 773px;
+height: 53px;
+left: 134px;
+top: 4873px;
+
+font-family: Space Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 53px;
+letter-spacing: -0.05em;
+
+color: #FFFFFF;
+}
+
+.about-us-subheading {
+    position: absolute;
+width: 466px;
+height: 240px;
+left: 140px;
+top: 4990px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.5px;
+
+color: #FFFFFF;
+}
