@@ -21,9 +21,11 @@ body {
     width: 1172px;
     height: 36px;
     top: 30px;
-    left: 134px;
+    /* left: 134px; */
+    margin-left: 120px;
     display: flex;
-    justify-content: right;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .topbar a {
@@ -39,9 +41,6 @@ body {
     line-height: 36px;
 }
 
-.topbar-child {
-    float: right;
-}
 
 .logo {
     float: left;
