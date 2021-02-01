@@ -38,11 +38,10 @@ body {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
     font-family: Space Mono;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 21px;
     line-height: 36px;
 }
 
@@ -237,7 +236,7 @@ body {
     width: 772px;
     height: 168px;
     left: 431px;
-    top: 2153px;
+    top: 2675px;
 
     font-family: Poppins;
     font-style: normal;
@@ -254,7 +253,7 @@ body {
     width: 781px;
     height: 144px;
     left: 233px;
-    top: 3093px;
+    top: 4000px;
 
     font-family: Poppins;
     font-style: normal;
@@ -575,6 +574,12 @@ body {
     height: 379px;
     left: 134px;
     top: 5293px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(Images/team3.JPG);
+    
+}
 
-    background: url(Images/team2.png);
+.text-parallax {
+    z-index: 1;
 }
