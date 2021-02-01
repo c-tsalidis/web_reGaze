@@ -198,6 +198,15 @@ body {
     text-decoration-line: underline;
 }
 
+.hyper-links-authors {
+    color: #FFFFFF;
+    text-decoration-line: none;
+}
+
+a:hover {
+    text-decoration-line: underline;
+  }
+
 
 .text {
     position: absolute;
