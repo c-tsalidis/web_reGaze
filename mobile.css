@@ -4,19 +4,6 @@ html {
 
 body {
     background-color: #000000;
-    position: relative;
-}
-
-.container {
-    display: flex;
-    justify-content: center;
-}
-
-/* regaze_regular */
-.main-container {
-    position: relative;
-    width: 100%;
-    background-color: #131313;
 }
 
 /* topbar */
@@ -45,30 +32,39 @@ body {
     line-height: 36px;
 }
 
-/* bg */
-.bg {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: url("Images/Backdrop.png");
+.container {
+    display: flex;
+    justify-content: center;
 }
 
-/* Backdrop */
-.back-drop {
-    background: linear-gradient(180deg, rgba(19, 19, 19, 0.6) 33.85%, #131313 100%), linear-gradient(0deg, rgba(19, 19, 19, 0.8), rgba(19, 19, 19, 0.8)), url(Images/Backdrop.png);
+/* regaze_regular */
+.main-container {
+    position: relative;
+    width: 100%;
+    height: 6056px;
+    background-color: #131313;
+    z-index: -2;
+}
+
+/* bg */
+.bg {
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    background: url("Images/Backdrop.png") no-repeat;
+    background-size: 100%;
 }
 
 /* reGaze: Eye Tracking Assisted Superhuman Interactions in Virtual Reality Games */
 .heading {
     position: absolute;
-    width: 572px;
-    height: 306px;
-    left: 134px;
-
+    width: 35%;
+    height: inherit;
+    left: 15%;
     font-family: Space Mono;
     font-style: normal;
     font-weight: normal;
-    /*font-weight: 400;*/
     letter-spacing: -0.05em;
     text-align: left;
     color: #FFFFFF;
@@ -89,9 +85,9 @@ body {
 /* Watch the video */
 .video-link {
     position: absolute;
-    width: 156px;
-    height: 24px;
-    left: 134px;
+    width: 35%;
+    height: inherit;
+    left: 15%;
     top: 758px;
 
     font-family: Space Mono;
@@ -104,20 +100,11 @@ body {
     letter-spacing: 0.5px;
 }
 
-.heading-images {
-    position: absolute;
-    width: 584px;
-    height: 836.77px;
-    left: 856px;
-    top: 66px;
-    opacity: 0.8;
-}
-
 .jupiter {
     position: absolute;
-    width: 533.12px;
+    width: 35%;
     height: 755.69px;
-    left: 906.88px;
+    right: 0%;
     top: 147.07px;
     background: url(Images/Jupiter.png);
 }
@@ -133,15 +120,13 @@ body {
 }
 
 .playthrough {
-    /* bigbig 1 */
-
     position: absolute;
-    width: 1440px;
+    width: 100%;
     height: 650px;
     left: 0px;
     top: 835px;
-
-    background: url(Images/bigbig\ 1.png);
+    background: url(Images/bigbig.gif) no-repeat center center;
+    background-size: 100%;
 
 }
 
@@ -481,8 +466,8 @@ a:hover {
     height: 379px;
     left: 234px;
     top: 1800px;
-
-    background: url(Images/dash1.png);
+    background: url(Images/dash2.gif);
+    background-size: 100%;
 }
 
 .gif2 {
@@ -491,8 +476,8 @@ a:hover {
     height: 379px;
     left: 634px;
     top: 2443px;
-
-    background: url(Images/tele1.png);
+    background: url(Images/tele2.gif);
+    background-size: 100%;
 }
 
 .testing1 {
@@ -544,3 +529,22 @@ a:hover {
 .text-parallax {
     z-index: 1;
 }
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+    .topbar {
+        display: none;
+    }
+  }
