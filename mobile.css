@@ -503,11 +503,9 @@ a:hover {
 }
 
 .members1 {
-    position: absolute;
+    position: relative;
     width: 672px;
     height: 379px;
-    left: 700px;
-    top: 4990px;
 
     background: url(Images/team1.png);
     transform: matrix(-1, 0, 0, 1, 0, 0);
@@ -515,11 +513,9 @@ a:hover {
 }
 
 .members2 {
-    position: absolute;
+    position: relative;
     width: 672px;
     height: 379px;
-    left: 134px;
-    top: 5293px;
     background-size: 100%;
     background-repeat: no-repeat;
     background-image: url(Images/team3.JPG);

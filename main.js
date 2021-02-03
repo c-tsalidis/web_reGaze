@@ -19,3 +19,6 @@ var scene = new ScrollMagic.Scene({ triggerElement: "#trigger1", duration: 200, 
 */
 
 var rellax = new Rellax('.rellax');
+if(this.innerWidth < 736) {
+    rellax.destroy();
+}

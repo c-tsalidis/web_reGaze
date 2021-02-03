@@ -581,7 +581,7 @@ body {
     /* regaze_regular */
     .main-container {
         width: 100%;
-        height: 6056px;
+        height: auto;
     }
 
     /* bg */
@@ -654,12 +654,11 @@ body {
     }
 
     .playthrough {
-        
+        position: relative;
         width: 100%;
-        height: 650px;
+        height: 527px;
         background: url(Images/bigbig.gif) no-repeat bottom center;
         background-size: 100%;
-
     }
 
     .hyper-links {
@@ -678,10 +677,7 @@ body {
 
 
     .text {
-        position: absolute;
-        width: 773px;
-        height: 159px;
-        left: 134px;
+        position: relative;
         font-family: Space Mono;
         font-style: normal;
         font-weight: normal;
@@ -693,12 +689,6 @@ body {
     }
 
     .text1 {
-        position: absolute;
-        width: 773px;
-        height: 159px;
-        left: 134px;
-        top: 1577px;
-
         font-family: Space Mono;
         font-style: normal;
         font-weight: normal;
@@ -710,11 +700,6 @@ body {
     }
 
     .text2 {
-        position: absolute;
-        width: 772px;
-        height: 168px;
-        left: 431px;
-        top: 2675px;
 
         font-family: Poppins;
         font-style: normal;
@@ -727,11 +712,6 @@ body {
     }
 
     .text3 {
-        position: absolute;
-        width: 781px;
-        height: 144px;
-        left: 233px;
-        top: 4000px;
 
         font-family: Poppins;
         font-style: normal;
@@ -744,12 +724,6 @@ body {
     }
 
     .text4 {
-        position: absolute;
-        width: 772px;
-        height: 96px;
-        left: 333px;
-        top: 3948px;
-
         font-family: Poppins;
         font-style: normal;
         font-weight: normal;
@@ -761,11 +735,7 @@ body {
     }
 
     .technologies-heading {
-        position: absolute;
-        width: 773px;
-        height: 53px;
-        left: 134px;
-        top: 4172px;
+
 
         font-family: Space Mono;
         font-style: normal;
@@ -778,12 +748,6 @@ body {
     }
 
     .htc-pro-heading {
-        position: absolute;
-        width: 217px;
-        height: 36px;
-        left: 134px;
-        top: 4289px;
-
         font-family: Poppins;
         font-style: normal;
         font-weight: 600;
@@ -797,11 +761,6 @@ body {
     }
 
     .htc-pro-subheading {
-        position: absolute;
-        width: 272px;
-        height: 216px;
-        left: 134px;
-        top: 4349px;
 
         font-family: Poppins;
         font-style: normal;
@@ -814,11 +773,6 @@ body {
     }
 
     .tobii-xr-heading {
-        position: absolute;
-        width: 172px;
-        height: 36px;
-        left: 534px;
-        top: 4289px;
 
         font-family: Poppins;
         font-style: normal;
@@ -833,11 +787,6 @@ body {
     }
 
     .tobii-xr-subheading {
-        position: absolute;
-        width: 272px;
-        height: 144px;
-        left: 534px;
-        top: 4349px;
 
         font-family: Poppins;
         font-style: normal;
@@ -850,11 +799,7 @@ body {
     }
 
     .unity-3d-heading {
-        position: absolute;
-        width: 217px;
-        height: 36px;
-        left: 934px;
-        top: 4289px;
+
 
         font-family: Poppins;
         font-style: normal;
@@ -869,11 +814,7 @@ body {
     }
 
     .unity-3d-subheading {
-        position: absolute;
-        width: 272px;
-        height: 120px;
-        left: 934px;
-        top: 4349px;
+
 
         font-family: Poppins;
         font-style: normal;
@@ -887,11 +828,6 @@ body {
     }
 
     .our-repository {
-        position: absolute;
-        width: 1072px;
-        height: 72px;
-        left: 134px;
-        top: 4677px;
 
         font-family: Poppins;
         font-style: normal;
@@ -905,12 +841,6 @@ body {
     }
 
     .about-us-heading {
-        position: absolute;
-        width: 773px;
-        height: 53px;
-        left: 134px;
-        top: 4873px;
-
         font-family: Space Mono;
         font-style: normal;
         font-weight: normal;
@@ -922,12 +852,6 @@ body {
     }
 
     .about-us-subheading {
-        position: absolute;
-        width: 466px;
-        height: 240px;
-        left: 140px;
-        top: 4990px;
-
         font-family: Poppins;
         font-style: normal;
         font-weight: normal;
@@ -939,12 +863,6 @@ body {
     }
 
     .project-authors {
-        position: absolute;
-        width: 466px;
-        height: 192px;
-        left: 834px;
-        top: 5480px;
-
         font-family: Poppins;
         font-style: normal;
         font-weight: normal;
@@ -956,12 +874,6 @@ body {
     }
 
     .end-message {
-        position: absolute;
-        width: 772px;
-        height: 48px;
-        left: 134px;
-        top: 5844px;
-
         font-family: Poppins;
         font-style: normal;
         font-weight: normal;
@@ -973,11 +885,6 @@ body {
     }
 
     .email {
-        position: absolute;
-        width: 872px;
-        height: 71px;
-        left: 134px;
-        top: 5902px;
 
         font-family: Space Mono;
         font-style: normal;
@@ -985,61 +892,49 @@ body {
         font-size: 48px;
         line-height: 71px;
         /* identical to box height */
-
-
         color: #FFFFFF;
     }
 
 
     /* some more images */
     .gif1 {
-        position: absolute;
-        width: 672px;
+        position: relative;
+        width: 100%;
         height: 379px;
-        left: 234px;
-        top: 1800px;
         background: url(Images/dash2.gif);
         background-size: 100%;
     }
 
     .gif2 {
-        position: absolute;
-        width: 672px;
+        position: relative;
+        width: 100%;
         height: 379px;
-        left: 634px;
-        top: 2443px;
         background: url(Images/tele2.gif);
         background-size: 100%;
     }
 
     .testing1 {
-        position: absolute;
-        width: 673px;
+        position: relative;
+        width: 100%;
         height: 379px;
-        left: 350px;
-        top: 2886px;
 
         background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%), url(Images/test1.png);
         transform: matrix(-1, 0, 0, 1, 0, 0);
     }
 
     .testing2 {
-        position: absolute;
-        width: 683px;
+        position: relative;
+        width: 100%;
         height: 379px;
-        left: 523px;
-        top: 3505px;
 
         background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%), url(Images/test2.png);
 
     }
 
     .members1 {
-        position: absolute;
-        width: 672px;
+        position: relative;
+        width: 100%;
         height: 379px;
-        left: 700px;
-        top: 4990px;
 
         background: url(Images/team1.png);
         transform: matrix(-1, 0, 0, 1, 0, 0);
@@ -1047,11 +942,9 @@ body {
     }
 
     .members2 {
-        position: absolute;
-        width: 672px;
+        position: relative;
+        width: 100%;
         height: 379px;
-        left: 134px;
-        top: 5293px;
         background-size: 100%;
         background-repeat: no-repeat;
         background-image: url(Images/team3.JPG);
